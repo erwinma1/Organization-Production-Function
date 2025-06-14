@@ -1,5 +1,5 @@
 '''
-TechEx Production Model
+Production Function Model for Service Organization
 Useful Sources:
 Construct F(L): https://mbounthavong.com/blog/tag/Cobb-Douglas+production+function
 SciKitLearn: https://www.w3schools.com/python/python_ml_multiple_regression.asp
