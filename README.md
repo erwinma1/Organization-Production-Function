@@ -12,4 +12,4 @@ Methodology:
 5) Fit the data to the new model.
 
 Findings:
-The model was able to predict labor outputs with a standard deviation within +/-6%. Organizational leadership should be able to use this for business operations and strategy. 
+The model predicts labor outputs with a standard deviation within +/-6%. Organizational leadership can use this insights for business operations, budgeting, finance, and strategy. 
