@@ -15,11 +15,11 @@ from sklearn import linear_model
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
-data = pd.read_excel('C:/Users/erwin/PycharmProjects/Production_Model_Refactor/data_test_4.xlsx')
+data = pd.read_excel('file_path')
 
-template = pd.read_excel('C:/Users/erwin/PycharmProjects/Production_Model_Refactor/xref/template2.xlsx')
+template = pd.read_excel('file_path')
 
-write_path = ('C:/Users/erwin/PycharmProjects/Production_Model_Refactor/write_test_refactor_v6.xlsx')
+write_path = ('file_path')
 
 ###############################################################
 ######################### Format data #########################
