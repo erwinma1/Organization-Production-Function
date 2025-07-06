@@ -1,15 +1,30 @@
-Organization Production Function
-This project analyzes the labor costs and services rendered (output) of an organization. 
+# Organization Production Function
 
-Objective:
-Determine the production function of labor in order to find optimal amount of staff budget necessary, given a an annual budget constraint. 
+This project estimates the relationship between staff budget (labor input) and program output in a service-based nonprofit organization using a Cobb-Douglas production function.
 
-Methodology:
-1) Retrieve historical data from the organization relating to staff and program expenditures.
-2) Transform the labor inputs into Log form.
-3) Estimate the output elasticity of labor by using a linear regression.
-4) Use the elasticity for the log form Cobb Douglas Production function F(L).
-5) Fit the data to the new model.
+## Objective
+Estimate the output elasticity of labor to determine how much staff cost is needed to support programming, especially under budget constraints or fiscal shocks.
 
-Findings:
-The model predicts labor outputs with a standard deviation within +/-6%. Organizational leadership can use this insights for business operations, budgeting, finance, and strategy. 
+## Methodology
+1. Clean and transform organizational data (log-linear form).
+2. Run OLS regression on `log(Output)` ~ `log(Labor)`.
+3. Fit the production function.
+4. Calculate point elasticities.
+5. Convert back to USD values for interpretation.
+
+## Findings
+- Estimated output elasticity ≈ 0.56
+- Predicted output within ±6% of actual values
+- Provides a decision-support tool for staffing and budget forecasting
+
+## Files
+- `production_model.py`: Full pipeline with regression, fitting, and plotting
+- `write_test_refactor_v6.xlsx`: Output from the model
+- `Production Model Report Github.docx`: Technical explanation of approach and implications
+
+## Notes
+- Synthetic data is used for confidentiality.
+- Inspired by [this Cobb-Douglas tutorial](https://mbounthavong.com/blog/tag/Cobb-Douglas+production+function)
+
+## Author
+Erwin Ma | 2025
